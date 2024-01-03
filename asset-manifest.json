@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/FW2/static/css/main.63ffa884.css",
+    "main.js": "/FW2/static/js/main.199644c1.js",
+    "static/media/hero-dark.jpg": "/FW2/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/hero-light.jpg": "/FW2/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/Paper_header.PNG": "/FW2/static/media/Paper_header.344ef664a0b711715f90.PNG",
+    "service-worker.js": "/FW2/service-worker.js",
+    "static/media/defaultNavLogo.svg": "/FW2/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/FW2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/FW2/index.html",
+    "main.63ffa884.css.map": "/FW2/static/css/main.63ffa884.css.map",
+    "main.199644c1.js.map": "/FW2/static/js/main.199644c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ffa884.css",
+    "static/js/main.199644c1.js"
+  ]
+}
