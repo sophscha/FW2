@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Icons
 import { Icon } from "@iconify/react";
 // Media
-import Logo from "../images/logo.svg";
+import Logo from "../images/Paper_header.PNG";
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
@@ -82,6 +82,7 @@ const StyledHero = styled.header`
 
 export default function Hero() {
   const { name } = useSelector(selectData);
+  const { avatar_url, bio } = useSelector(selectData);
 
   return (
     <StyledHero>
@@ -95,9 +96,11 @@ export default function Hero() {
           </Col>
           <Col className="d-none d-md-block">
             <img
-              src={Logo}
-              alt="React Logo"
-              className="w-75 mx-auto hero-img"
+                src={avatar_url}
+                alt="GitHub Avatar"
+                loading="lazy"
+                className="mx-auto rounded-circle"
+                style={{ width: "15rem", height: "15rem" }}
             />
           </Col>
         </Row>

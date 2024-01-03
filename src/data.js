@@ -18,20 +18,24 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "sophscha";
 
 // Navbar Logo image
 export const navLogo = undefined;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="mdi:linkedin" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  'Thank you for attending my poster session on '
+export const moreInfo2 = 
+  'Towards synthethic generation of mobility data with TimeGAN.';
+export const moreInfo3 = 
+  'To get the full paper or any further information please contact me through one of the aforementioned channels. Looking forward!';
 
 /* Skills
  ************************************************************** 
